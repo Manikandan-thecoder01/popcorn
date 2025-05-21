@@ -4,7 +4,7 @@ import StarRating from "./StarRating";
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const KEY = "665d8419";
+const KEY = "967d3f0b";
 
 export default function App() {
   const [query, setQuery] = useState("");
